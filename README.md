@@ -45,9 +45,3 @@ Connect the Android device with USB debugging enabled before starting the tool.
 
 ---
 
-This version:
-- looks more natural,
-- avoids “AI-generated” tone,
-- fixes readability,
-- looks more like real GitHub project documentation,
-- and renders properly on GitHub.
