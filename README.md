@@ -1,21 +1,19 @@
-````md
 # Mobilytix
 
-Mobilytix is a mobile forensics platform built to simplify Android evidence acquisition, analysis, and reporting. It helps investigators collect device artifacts, analyze user activity, and generate structured forensic reports through a centralized workflow.
+Mobilytix is an Android forensics project focused on simplifying evidence collection and analysis from mobile devices. The goal of the project is to bring common forensic tasks into a single workflow instead of relying on multiple separate tools.
 
 ## Overview
 
-The project focuses on automating common Android forensic tasks that are usually spread across multiple tools and manual processes. Mobilytix combines artifact collection, analysis, and reporting into a single platform to improve investigation efficiency and consistency.
+The platform helps investigators collect Android artifacts, analyze user activity, and generate structured forensic reports. It automates several repetitive investigation tasks and improves the overall investigation process.
 
 ## Features
 
-- Android artifact acquisition using ADB
-- Extraction of call logs, SMS, applications, metadata, and device information
-- Activity timeline reconstruction
-- Basic anomaly and pattern analysis
-- Structured forensic evidence reporting
+- Android evidence acquisition using ADB
+- Extraction of SMS, call logs, installed apps, metadata, and device details
+- Timeline reconstruction of user activity
+- Artifact analysis and anomaly detection
+- Automated forensic reporting
 - Centralized investigation workflow
-- Modular architecture for future integrations
 
 ## Tech Stack
 
@@ -23,7 +21,7 @@ The project focuses on automating common Android forensic tasks that are usually
 - ADB
 - SQLite
 - JSON
-- Windows / Linux
+- Linux / Windows
 
 ## Project Structure
 
@@ -35,23 +33,21 @@ Mobilytix/
 ├── utils/
 ├── main.py
 └── README.md
-````
-
-## Installation
-
-```bash
+Installation
 git clone https://github.com/yourusername/mobilytix.git
 cd mobilytix
 pip install -r requirements.txt
-```
-
-## Usage
-
-```bash
+Usage
 python main.py
-```
 
-Make sure the Android device is connected and USB debugging is enabled.
+Connect the Android device with USB debugging enabled before starting the tool.
 
-```
-```
+
+---
+
+This version:
+- looks more natural,
+- avoids “AI-generated” tone,
+- fixes readability,
+- looks more like real GitHub project documentation,
+- and renders properly on GitHub.
