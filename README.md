@@ -1,49 +1,57 @@
+````md
 # Mobilytix
-Mobilytix is an AI-powered mobile forensics platform that automates Android evidence acquisition, analysis, and reporting. It extracts artifacts, detects anomalies, and generates forensic insights to help investigators perform faster, accurate, and scalable digital investigations.
 
-# Mobilytix 🔍📱  
-**AI-Powered Mobile Forensic Analysis Platform**
+Mobilytix is a mobile forensics platform built to simplify Android evidence acquisition, analysis, and reporting. It helps investigators collect device artifacts, analyze user activity, and generate structured forensic reports through a centralized workflow.
 
-## 📌 Overview
-Mobilytix is an AI-driven mobile forensics tool designed to automate the acquisition, analysis, and reporting of digital evidence from Android devices. It helps forensic investigators and security professionals extract critical artifacts, detect anomalies, and generate structured forensic reports efficiently.
+## Overview
 
-## 🚀 Key Features
-- Automated Android data acquisition  
-- Extraction of forensic artifacts (calls, SMS, apps, logs, metadata)  
-- AI-based anomaly detection & pattern analysis  
-- Timeline reconstruction of user activity  
-- Evidence classification and correlation  
-- Auto-generated forensic reports  
-- Modular and scalable architecture  
+The project focuses on automating common Android forensic tasks that are usually spread across multiple tools and manual processes. Mobilytix combines artifact collection, analysis, and reporting into a single platform to improve investigation efficiency and consistency.
 
-## 🛠️ Tech Stack
-- **Programming Language:** Python  
-- **Forensics Tools:** ADB, open-source Android forensic utilities  
-- **AI/ML:** NLP & ML models for pattern detection  
-- **Database:** SQLite / JSON-based storage  
-- **Platform:** Windows / Linux  
+## Features
 
-## 📂 Project Structure
+- Android artifact acquisition using ADB
+- Extraction of call logs, SMS, applications, metadata, and device information
+- Activity timeline reconstruction
+- Basic anomaly and pattern analysis
+- Structured forensic evidence reporting
+- Centralized investigation workflow
+- Modular architecture for future integrations
 
+## Tech Stack
 
+- Python
+- ADB
+- SQLite
+- JSON
+- Windows / Linux
+
+## Project Structure
+
+```bash
 Mobilytix/
 ├── acquisition/
 ├── analysis/
-├── ai_engine/
 ├── reporting/
 ├── utils/
 ├── main.py
 └── README.md
+````
 
+## Installation
 
-## ⚙️ Installation
 ```bash
 git clone https://github.com/yourusername/mobilytix.git
 cd mobilytix
 pip install -r requirements.txt
+```
 
-▶️ Usage
+## Usage
+
+```bash
 python main.py
+```
 
+Make sure the Android device is connected and USB debugging is enabled.
 
-Ensure the Android device is connected with USB debugging enabled.
+```
+```
