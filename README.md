@@ -1,19 +1,20 @@
 # Mobilytix
 
-Mobilytix is an Android forensics project focused on simplifying evidence collection and analysis from mobile devices. The goal of the project is to bring common forensic tasks into a single workflow instead of relying on multiple separate tools.
+Mobilytix is a mobile forensics platform built to simplify Android evidence acquisition, analysis, and reporting. The project focuses on automating forensic workflows and bringing common investigation tasks into a centralized platform.
 
 ## Overview
 
-The platform helps investigators collect Android artifacts, analyze user activity, and generate structured forensic reports. It automates several repetitive investigation tasks and improves the overall investigation process.
+Mobilytix helps investigators and security professionals collect Android artifacts, analyze device activity, and generate structured forensic reports. The platform is designed to reduce manual effort and improve investigation efficiency during digital forensic analysis.
 
 ## Features
 
 - Android evidence acquisition using ADB
-- Extraction of SMS, call logs, installed apps, metadata, and device details
+- Extraction of SMS, call logs, applications, metadata, and device information
 - Timeline reconstruction of user activity
 - Artifact analysis and anomaly detection
 - Automated forensic reporting
 - Centralized investigation workflow
+- Modular architecture for future integrations
 
 ## Tech Stack
 
@@ -21,7 +22,7 @@ The platform helps investigators collect Android artifacts, analyze user activit
 - ADB
 - SQLite
 - JSON
-- Linux / Windows
+- Windows / Linux
 
 ## Project Structure
 
@@ -33,15 +34,32 @@ Mobilytix/
 ├── utils/
 ├── main.py
 └── README.md
-Installation
+```
+
+## Installation
+
+```bash
 git clone https://github.com/yourusername/mobilytix.git
 cd mobilytix
 pip install -r requirements.txt
-Usage
+```
+
+## Usage
+
+```bash
 python main.py
+```
 
 Connect the Android device with USB debugging enabled before starting the tool.
 
+## Future Improvements
 
----
+- AI-based behavioral analysis
+- Enhanced artifact correlation
+- Cloud evidence synchronization
+- Advanced forensic visualization
+- Multi-device investigation support
 
+## License
+
+This project is developed for educational and research purposes.
